@@ -1,0 +1,31 @@
+{
+  "name": "headless-turret",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "path": "^0.12.7",
+    "terser-webpack-plugin": "^5.2.3",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "playwright": "^1.15.1",
+    "stellar-base": "^6.0.3",
+    "stellar-sdk": "^8.3.0",
+    "tree-kill": "^1.2.2",
+    "vm2": "^3.9.3"
+  }
+}

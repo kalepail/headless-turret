@@ -1,0 +1,23 @@
+name = "headless-turret"
+type = "javascript"
+account_id = "ba55b7ae9acfb3ed152103e3497c0752"
+usage_model = 'bundled'
+compatibility_date = '2021-09-26'
+compatibility_flags = []
+workers_dev = true
+
+kv_namespaces = [
+  
+]
+
+[durable_objects]
+bindings = [
+  
+]
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "modules"
+main = "./shim.mjs"
